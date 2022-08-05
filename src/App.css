@@ -39,13 +39,13 @@
 .container{
   
   width: 28rem;
-  height: 35rem;
+  height: 37rem;
   margin-top: 8rem;
   border-radius: 0.5rem;
   border: 0.5px solid #282c34;
 }
 .input1{
- padding-top: 3rem;
+ padding-top: 1rem;
  padding-bottom: 1rem;
  padding-left: 3rem;
  width: fit-content;
@@ -60,7 +60,9 @@
 .btn{
   margin-top: 1rem;
   width: 10rem;
-  height: rem;
+  height: 2.5rem;
+  margin-left: 1rem;
+ 
 }
 .email{
   border-radius: 3px;
@@ -82,4 +84,31 @@
 }
 .forgot{
   margin: 1.5rem;
+}
+.dob{
+  border-radius: 3px;
+  border:0.5px solid black;
+  width: 22rem;
+  height: 2.5rem;
+  
+}
+.dob1{
+  margin-top: 1rem;
+  margin-bottom: 0.1rem;
+ padding-bottom: 1rem;
+ padding-left: 3rem;
+ width: fit-content;
+}
+.name{
+  border-radius: 3px;
+  border:0.5px solid black;
+  width: 22rem;
+  height: 2.5rem;
+}
+.name1{
+  margin-top: 2rem;
+  margin-bottom: 0.1rem;
+ padding-bottom: 1rem;
+ padding-left: 3rem;
+ width: fit-content;
 }
