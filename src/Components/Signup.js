@@ -1,6 +1,8 @@
 import React from 'react'
+import {BrowserRouter,Routes,Route,Link,useNavigate} from 'react-router-dom'
 
 export default function Signup() {
+  
   return (
     <div className="App">
       <div className="container">
@@ -21,7 +23,7 @@ export default function Signup() {
    <div className="dob1">
     <input className='dob' type="date" name="" id="" required />
    </div>
-    <button type="submit" className="btn btn-primary">Sign Up</button>
+    <button  type="submit" className="btn btn-primary">Sign Up</button>
     <button type="reset" className="btn btn-primary">Reset</button>
     </form>
       </div>
