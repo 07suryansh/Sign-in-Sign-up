@@ -3,12 +3,15 @@ import {BrowserRouter,Routes,Route,Link,useNavigate, Router} from 'react-router-
 
 
 export default function Signin() {
-  
+
+  let navigate = useNavigate();
+
   return (
+    
     <div className="App">
       <div className="container">
         <h1 className="heading1">Sign In</h1>
-        <form action="">
+        <form action=""  >
     <div className="input1">
       <input className="email" type="text" name="email" id="email" placeholder="Enter Email" required/>
     </div>
@@ -18,7 +21,7 @@ export default function Signin() {
     <div className="forgot">
     <a href="#">Forgot Password?</a>
     </div>
-    <button type="submit" className="btn btn-primary">Sign In</button>
+    <button type="submit" onClick={()=>navigate("Signedin")} className="btn btn-primary">Sign In</button>
     <div className="forgot">
     <Link to="/Signup">Create Account</Link>
     </div>
@@ -26,5 +29,6 @@ export default function Signin() {
       </div>
       
     </div>
+    
   )
 }
