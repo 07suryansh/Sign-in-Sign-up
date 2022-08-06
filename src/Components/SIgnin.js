@@ -20,7 +20,7 @@ export default function Signin() {
     </div>
     <button type="submit" className="btn btn-primary">Sign In</button>
     <div className="forgot">
-    <a href="/Signup">Create Account</a>
+    <Link to="/Signup">Create Account</Link>
     </div>
     </form>
       </div>
