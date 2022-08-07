@@ -1,5 +1,5 @@
 import React from 'react'
-import {BrowserRouter,Routes,Route,Link,useNavigate, Router} from 'react-router-dom'
+import {Link,useNavigate} from 'react-router-dom'
 
 
 export default function Signin() {
@@ -21,7 +21,9 @@ export default function Signin() {
     </div>
     <button type="submit"  className="btn btn-primary">Sign In</button>
     <div className="forgot">
-    <Link to="/Signup">Create Account</Link>
+    <nav>
+    <Link to="Signup">Create Account</Link>
+    </nav>
     </div>
     </form>
       </div>
