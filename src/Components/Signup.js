@@ -2,7 +2,7 @@ import React from 'react'
 import {BrowserRouter,Routes,Route,Link,useNavigate} from 'react-router-dom'
 
 export default function Signup() {
-  
+
   return (
     <div className="App">
       <div className="container">
@@ -12,7 +12,7 @@ export default function Signup() {
             <input className='name' type="text" name="name" id="" placeholder='Enter your name' required/>
         </div>
     <div className="input1">
-      <input className="email" type="text" name="email" id="email" placeholder="Enter Email" required/>
+      <input className="email" type="email" name="email" id="email" placeholder="Enter Email" required/>
     </div>
     <div className="input2">
       <input className="password" type="password" name="password" id="password" placeholder="Enter Password" required/>
@@ -21,7 +21,7 @@ export default function Signup() {
       <input className="password" type="password" name="password" id="password" placeholder="Re-Enter Password" required/>
     </div>
    <div className="dob1">
-    <input className='dob' type="date" name="" id="" required />
+    <input className='dob' type="date" name="" id="" placeholder="Enter date of birth" required  />
    </div>
     <button  type="submit" className="btn btn-primary">Sign Up</button>
     <button type="reset" className="btn btn-primary">Reset</button>
