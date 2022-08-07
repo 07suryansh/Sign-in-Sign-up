@@ -1,15 +1,15 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
+import {Link,useNavigate} from 'react-router-dom'
 
 
 export default function Signin() {
-
+let navigate=useNavigate()
   return (
     
     <div className="App">
       <div className="container">
         <h1 className="heading1">Sign In</h1>
-        <form action=""  >
+        <form action="" onSubmit={()=>navigate("Signedin")} >
     <div className="input1">
       <input className="email" type="email" name="email" id="email" placeholder="Enter Email" required/>
     </div>
