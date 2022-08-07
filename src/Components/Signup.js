@@ -7,7 +7,7 @@ let navigate=useNavigate()
     <div className="App">
       <div className="container">
         <h1 className="heading">Sign Up</h1>
-        <form action="" onSubmit={()=>navigate("Signin")}>
+        <form action="" onSubmit={()=>navigate("/Signin")}>
         <div className='name1'>
             <input className='name' type="text" name="name" id="name" placeholder='Enter your name' required/>
         </div>
