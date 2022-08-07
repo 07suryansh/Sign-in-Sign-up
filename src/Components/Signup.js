@@ -1,13 +1,13 @@
 import React from 'react'
-import {Link,useNavigate} from 'react-router-dom'
+import {useNavigate} from 'react-router-dom'
 
 export default function Signup() {
-
+let navigate=useNavigate()
   return (
     <div className="App">
       <div className="container">
         <h1 className="heading">Sign Up</h1>
-        <form action="">
+        <form action="" onSubmit={()=>navigate("Signin")}>
         <div className='name1'>
             <input className='name' type="text" name="name" id="name" placeholder='Enter your name' required/>
         </div>
